@@ -2,6 +2,10 @@
   "extends": ["config:base"],
   "packageRules": [
     {
+      "updateTypes": ["major"],
+      "labels": ["MAJOR-UPDATE"]
+    },
+    {
       "packagePatterns": ["^babel|^@babel"],
       "groupName": "babel packages"
     },
