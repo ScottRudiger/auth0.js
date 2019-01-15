@@ -29,5 +29,6 @@
   "prCreation": "not-pending",
   "rangeStrategy": "auto",
   "schedule": ["after 10pm and before 5am on every weekday", "every weekend"],
-  "timezone": "America/Los_Angeles"
+  "timezone": "America/Los_Angeles",
+  "unpublishSafe": true
 }
